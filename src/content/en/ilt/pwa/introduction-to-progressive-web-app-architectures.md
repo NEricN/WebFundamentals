@@ -63,7 +63,7 @@ Service worker caching should be considered a progressive enhancement. If your w
 
 ### Key Concepts
 
-The app shell approach relies on caching the "shell" of your web application using a service worker. Using the __ *app shell + dynamic content model* __ greatly improves app performance and works really well with service worker caching as a progressive enhancement. Progressively enhancing your web app means you can gradually add in features like offline caching, push notifications, and add-to-home-screen.
+The app shell approach relies on caching the "shell" of your web application using a service worker. Using the __*app shell + dynamic content model*__ greatly improves app performance and works really well with service worker caching as a progressive enhancement. Progressively enhancing your web app means you can gradually add in features like offline caching, push notifications, and add-to-home-screen.
 
 Here is a high-level description of how it works:
 

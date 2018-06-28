@@ -490,7 +490,7 @@ This step is for you to complete on your own. In the `addOrders` function in __m
 
 
 
-__Hint: __This code will be very similar to the `addProducts` function that we wrote at the start of the lab.
+__Hint:__ This code will be very similar to the `addProducts` function that we wrote at the start of the lab.
 
 
 

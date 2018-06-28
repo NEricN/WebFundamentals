@@ -74,7 +74,7 @@ When it receives a message, the service worker wakes up just long enough to disp
 
 The  [Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) lets us display notifications to the user. It is incredibly powerful and simple to use. Where possible, it uses the same mechanisms a native app would use, giving a completely native look and feel.
 
-We can split the Notifications API into two core areas (these are non-technical and are not part of the spec). The  *Invocation API * controls how to make your notification appear, including styling and vibration. We create (or invoke) the notification from the page (or from the server, in the case of push notifications). The  *Interaction API*  controls what happens when the user engages with the notification. User interaction is handled in the service worker.
+We can split the Notifications API into two core areas (these are non-technical and are not part of the spec). The  *Invocation API* controls how to make your notification appear, including styling and vibration. We create (or invoke) the notification from the page (or from the server, in the case of push notifications). The  *Interaction API*  controls what happens when the user engages with the notification. User interaction is handled in the service worker.
 
 ### Request permission
 

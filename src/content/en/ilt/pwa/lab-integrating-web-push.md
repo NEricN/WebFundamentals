@@ -1002,7 +1002,7 @@ e.waitUntil(
 );
 ```
 
-Save the code and update the service worker in the browser. Click __Notify me! __to create a new notification. Try clicking on a notification once with your app open and focused, and once with a different tab open.
+Save the code and update the service worker in the browser. Click __Notify me!__ to create a new notification. Try clicking on a notification once with your app open and focused, and once with a different tab open.
 
 <aside markdown="1" class="key-point">
 <p>Note: The <code>clients.openWindow</code> method can only open a window when called as the result of a <code>notificationclick</code> event. Therefore, we need to wrap the method in a <code>waitUntil</code>, so that the event does not complete before <code>openWindow</code> is called. Otherwise, the browser throws an error.</p>
