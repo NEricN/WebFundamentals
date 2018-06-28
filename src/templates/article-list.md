@@ -10,6 +10,7 @@ book_path: /web/{{section}}/_book.yaml
 {{#each articles}}
 
 ## {{ title }}
+
 <div class="attempt-right">
   {{#if image}}
     <img src="{{image}}">
@@ -17,6 +18,7 @@ book_path: /web/{{section}}/_book.yaml
     <img src="/web/updates/images/generic/star.png">
   {{/if}}
 </div>
+
 {{{description}}}
 
 [Read more]({{url}})
